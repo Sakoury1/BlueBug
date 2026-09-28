@@ -1,6 +1,7 @@
 ## Q1: What broke, or took longer than expected?
 
 Selenium was the slowest part because it loads a real browser and I perform multiple element lookups for each book. Also, changes in the page structure could cause element-not-found errors.
+
 ---
 
 ## Q2: If the site started blocking you after 50 requests, what would you change?
